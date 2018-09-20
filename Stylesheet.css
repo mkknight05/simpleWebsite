@@ -1,0 +1,31 @@
+body {
+    background-image: url(./matrix.gif)
+    
+}
+h1 {
+    color: rgb(208, 250, 23); font-size: 300%; justify-content: center;
+}
+p { border: 3px solid greenyellow;
+    color: rgb(172, 0, 0)
+    ; font-family: courier; font-size: 150%;
+    justify-content: center;
+}
+h3 {color: red; }
+
+h5 {color: white; font-size: 120%;}
+h4{color: white; font-family: Verdana; font-size: 178%;}
+
+.wrapper{
+    display: grid;
+grid-template-rows: 2; 
+grid-template-columns: 2;
+}
+.header{
+    grid-row: 1;
+    justify-content: center;
+    text-align: center;
+
+}
+.texth2{   
+     color: rgb(255, 255, 255); text-justify: left;
+}
